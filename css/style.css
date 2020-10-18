@@ -280,6 +280,12 @@ button {
     color: #c56765;
 }
 
+.ann-site-menu ul li a {
+    display: block;
+    line-height: 30px;
+    height: 30px;
+}
+
 .ann-site-menu.ann-site-menu-show {
     -webkit-transform: translateX(0%);
     -ms-transform: translateX(0%);
@@ -340,6 +346,8 @@ button {
     -ms-transform: translateY(-100%);
     transform: translateY(-100%);
     box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.1);
+    transform: translateZ(0);
+    -webkit-transform: translateZ(0);
 }
 
 .ann-site-header.scrolled .social {
@@ -1644,6 +1652,11 @@ span.user {
     margin: 0;
 }
 
+.ann-footer-section ul li a {
+    display: block;
+    line-height: 42px;
+    height: 42px;
+}
 
 /* *** 15. Gallery style *** */
 
