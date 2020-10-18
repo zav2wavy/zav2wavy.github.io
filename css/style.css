@@ -282,8 +282,8 @@ button {
 
 .ann-site-menu ul li a {
     display: block;
-    line-height: 30px;
-    height: 30px;
+    line-height: 60px;
+    height: 60px;
 }
 
 .ann-site-menu.ann-site-menu-show {
@@ -369,6 +369,8 @@ button {
 
 .ann-site-header.scrolled .ann-site-nav-toggle {
     top: -1px !important;
+        float: right;
+            border-top-width: 0;
 }
 
 .ann-site-header.awake {
