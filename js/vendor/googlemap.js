@@ -7,10 +7,10 @@ function init() {
         // How zoomed in you want the map to start at (always required)
         zoom: 13
         , // The latitude and longitude to center the map (always required)
-        center: new google.maps.LatLng(37.338811, -121.879796), // CA
+        center: new google.maps.LatLng(51.514960, -0.144460), // CA
         // How you would like to style the map. 
         // This is where you would paste any style found on Snazzy Maps.
-        styles: [
+        styles: [ 
             {
                 "featureType": "all"
                 , "elementType": "geometry.fill"
@@ -164,7 +164,7 @@ function init() {
     var map = new google.maps.Map(mapElement, mapOptions);
     // Let's also add a marker while we're at it
     var marker = new google.maps.Marker({
-        position: new google.maps.LatLng(37.338811, -121.879796)
+        position: new google.maps.LatLng(51.514960, -0.144460)
         , map: map
         , title: 'CA'
     });
