@@ -1611,6 +1611,7 @@ span.user {
     -ms-flex-align: center;
     align-items: center;
     background: #222;
+    text-rendering: optimizeLegibility;
 }
 
 .ann-social-link li:hover {
