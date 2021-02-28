@@ -893,7 +893,7 @@ button {
     display: inline-block;
     width: 80px;
     height: 2px;
-    background: #c56765;
+    background: #transparent;
     position: absolute;
     left: 0;
     bottom: 30px;
